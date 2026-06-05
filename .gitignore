@@ -11,5 +11,5 @@ webserver_config.py
 airflow.cfg
 airflow.db
 data/
-results/
+docs/
 /.astro/

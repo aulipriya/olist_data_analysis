@@ -73,7 +73,6 @@ class SellerPerformanceBuilder:
 
     def _build_seller_bucket_analysis_table(self, seller_performance: pd.DataFrame):
         df = seller_performance.copy()
-        print(df.columns)
         seller_risk = (
             df
             .groupby("seller_risk")

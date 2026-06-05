@@ -118,15 +118,7 @@ def main():
     analytics_folder_path = '../data/analytics/'
     cleaned_folder_path = '../data/cleaned/'
     builder = DelayImpactBuilder(analytics_folder_path, cleaned_folder_path, verbose=True)
-    builder._load_data()
-    builder._build_order_review_revenue_table()
-    delay_metrics = builder._create_delay_impact_metrics()
-    print("*"*50)
-    print(delay_metrics)
-    print("*"*50)
-    bucket_metrics = builder._create_delay_bucket_analysis()
-    print(bucket_metrics)
-    builder._save_delay_impact()
+    builder.run()
 
 if __name__ == "__main__":
     main()

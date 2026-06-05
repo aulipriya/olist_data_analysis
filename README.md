@@ -1,5 +1,7 @@
 # Olist E-Commerce Analytics — A Pandas Refresher Project
 
+![Olist E-Commerce Analytics](pandas_practice.png)
+
 A hands-on pandas project that turns the public Olist Brazilian e-commerce dataset into a small end-to-end analytics pipeline: raw CSVs → cleaned tables → fact tables → domain analyses → insight-led visualizations.
 
 The goal is to  revisit and stretch basic pandas skills (merges, groupbys, time deltas, bucketing, melts, scoring) on a realistic dataset with a real business question — **how do delivery delays impact reviews and revenue, and which sellers and products drive risk?**
